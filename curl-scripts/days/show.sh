@@ -5,5 +5,12 @@ curl "http://localhost:4741/examples/${ID}" \
   --request GET \
   --header "Content-Type: application/json" \
   --header "Authorization: Token token=${TOKEN}" \
+  --data '{
+    "days": {
+      "date": "'"${DATE}"'",
+      "pain_level": "'"${PAINLEVEL}"'",
+      "notes": "'"${NOTES}"'"
+    }
+  }'
 
 echo

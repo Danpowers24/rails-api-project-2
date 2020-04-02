@@ -6,7 +6,6 @@ curl "http://localhost:4741/examples" \
   --header "Content-Type: application/json" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
-    # plural?
     "days": {
       "date": "'"${DATE}"'",
       "pain_level": "'"${PAINLEVEL}"'",

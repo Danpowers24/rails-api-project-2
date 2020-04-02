@@ -6,8 +6,10 @@ curl "http://localhost:4741/examples/${ID}" \
   --header "Content-Type: application/json" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
-    "example": {
-      "text": "'"${TEXT}"'"
+    "days": {
+      "date": "'"${DATE}"'",
+      "pain_level": "'"${PAINLEVEL}"'",
+      "notes": "'"${NOTES}"'"
     }
   }'
 
