@@ -1,4 +1,4 @@
-class DaysController < ApplicationController
+class DaysController < ProtectedController
   before_action :set_day, only: %i[show update destroy]
 
   # GET /days
@@ -15,7 +15,7 @@ class DaysController < ApplicationController
 
   # POST /days
   def create
-    @day = Day.new(day_params)
+    @day = current_user.days.build(day_params)
 
     if @day.save
       render json: @day, status: :created, location: @day

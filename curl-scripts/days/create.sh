@@ -9,7 +9,8 @@ curl "http://localhost:4741/days" \
     "day": {
       "date": "'"${DATE}"'",
       "pain_level": "'"${PAINLEVEL}"'",
-      "notes": "'"${NOTES}"'"
+      "notes": "'"${NOTES}"'",
+      "user_id": "'"${USERID}"'"
     }
   }'
 
