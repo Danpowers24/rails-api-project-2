@@ -3,7 +3,7 @@ class DaysController < ProtectedController
 
   # GET /days
   def index
-    @days = Day.all
+    @days = current_user.days.all
 
     render json: @days
   end
@@ -42,7 +42,7 @@ class DaysController < ProtectedController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_day
-    @day = Day.find(params[:id])
+    @day = current_user.days.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
