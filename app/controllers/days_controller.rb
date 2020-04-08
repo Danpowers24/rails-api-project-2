@@ -3,6 +3,7 @@ class DaysController < ProtectedController
 
   # GET /days
   def index
+    # Don't need the .all
     @days = current_user.days.all
 
     render json: @days
