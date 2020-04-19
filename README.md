@@ -1,6 +1,7 @@
-# My README #
+# PathWell back-end API #
+This is the Pathwell back-end API. It receives requests from the PathWell client. These include GET, POST, PATCH, and DELETE requests regarding user authentication and resource creation/manipulation/deletion.
 
-PathWell Links:
+## PathWell Links: #
 
 [deployed API](https://apple-sundae-62931.herokuapp.com)
 
@@ -10,18 +11,15 @@ PathWell Links:
 
 [back-end repo](https://github.com/Danpowers24/rails-api-project-2)
 
-[wireframe and ERD]https://i.imgur.com/VFJzanK.jpg
-
-## Explanation of apps #
-This is the Pathwell back-end API. It receives requests from the PathWell client. These include GET, POST, PATCH, and DELETE requests regarding user authentication and resource creation/manipulation/deletion.
+[wireframe and ERD](https://i.imgur.com/VFJzanK.jpg)
 
 ## List technologies used: ##
-Ruby
-Ruby on Rails
-Heroku
+- Ruby
+- Ruby on Rails
+- Heroku
 
-## List unsolved problems which would be fixed in future iterations. ##
+## Unsolved problems to be fixed in future iterations: ##
 I would like to rename my 'Day' resource 'Entry'. An 'entry' is a more accurate description of the resource, as a User could have more than one entry per day.
 
-## Document your planning and tell a story about your development process and problem-solving strategy. ##
+## Planning, development process, and problem-solving strategy: ##
 I referenced my examples and built a lot of the structure from the Rails scaffold. I leaned on my classmates for help and was able to keep my back-end lean and mean without too many issues. As I build out the front-end with more features, I will certainly run into more limitations and problems to solve.
