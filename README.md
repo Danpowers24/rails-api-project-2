@@ -3,15 +3,15 @@ This is the Pathwell back-end API. It receives requests from the PathWell client
 
 ## PathWell Links: #
 
-[deployed API](https://apple-sundae-62931.herokuapp.com)
+[Deployed API](https://apple-sundae-62931.herokuapp.com)
 
-[deployed front-end](https://danpowers24.github.io/PathWell-client)
+[Deployed Front-End](https://danpowers24.github.io/PathWell-client)
 
-[front-end repo](https://github.com/Danpowers24/PathWell-client)
+[Front-End Repo](https://github.com/Danpowers24/PathWell-client)
 
-[back-end repo](https://github.com/Danpowers24/rails-api-project-2)
+[Back-End Repo](https://github.com/Danpowers24/rails-api-project-2)
 
-[wireframe and ERD](https://i.imgur.com/VFJzanK.jpg)
+[Wireframe and ERD](https://i.imgur.com/VFJzanK.jpg)
 
 ## List technologies used: ##
 - Ruby
