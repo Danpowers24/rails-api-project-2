@@ -1,5 +1,5 @@
 # PathWell back-end API #
-This is the Pathwell back-end API. It receives requests from the PathWell client. These include GET, POST, PATCH, and DELETE requests regarding user authentication and resource creation/manipulation/deletion.
+This is the Pathwell back-end API. It receives requests from the PathWell client. These include GET, POST, PATCH, and DELETE requests regarding user authentication and resource creation, manipulation, and deletion.
 
 ## PathWell Links: #
 
@@ -19,7 +19,7 @@ This is the Pathwell back-end API. It receives requests from the PathWell client
 - Heroku
 
 ## Unsolved problems to be fixed in future iterations: ##
-I would like to rename my 'Day' resource 'Entry'. An 'entry' is a more accurate description of the resource, as a User could have more than one entry per day.
+I would like to rename my 'Day' resource 'Entry'. 'Entry' is a more accurate description of the resource, as a user could have multiple entries per day.
 
 ## Planning, development process, and problem-solving strategy: ##
-I referenced my examples and built a lot of the structure from the Rails scaffold. I leaned on my classmates for help and was able to keep my back-end lean and mean without too many issues. As I build out the front-end with more features, I will certainly run into more limitations and problems to solve.
+I was able to build the API using the Rails scaffold, which we had worked with in previous excercises. I leaned on my classmates for help and was able to keep my back-end lean and mean without too many issues. As I build out the front-end with more features, I will certainly run into more limitations and problems to solve. 
